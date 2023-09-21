@@ -1,0 +1,96 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    height: 100%;
+    max-width: 100vw;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+}
+
+.dashboard-empty {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.dashboard-content {
+    display: none;
+    background-color: inherit;
+    color: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-transform: inherit;
+    text-decoration: inherit;
+}
+
+.draggable {
+    cursor:move;
+}
+
+.resizable {
+    resize: both;
+    overflow: auto;
+}
+.error-message {
+    display: none;
+}
+
+.profil {
+    min-width: 100px;
+    cursor:move;
+    border: 1px solid #dee2e6;
+;
+    border-radius: 5px;
+    background-color: inherit;
+    color: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-transform: inherit;
+    text-decoration: inherit;
+
+}
+
+.profil .profil-avatar {
+    /*min-width: 200px;
+    min-height: 200px;*/
+    background-color: inherit;
+    color: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-transform: inherit;
+    text-decoration: inherit;
+}
+
+.profil-avatar-img {
+    width: auto;
+    max-width: 500px;
+    min-width: 50px;
+    height: auto;
+    min-height: 50px;
+
+}
+
+.profil .profil-description {
+    font-size: 15px;
+    background-color: inherit;
+    color: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-transform: inherit;
+    text-decoration: inherit;
+}
+
+.profil .profil-close {
+    font-size: 25px;
+    cursor: pointer;
+    color: red ;
+}
